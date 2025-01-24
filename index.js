@@ -1,9 +1,11 @@
 
+
 let paco
 paco=prompt(`Escribe tu nombre()`);
 if (paco===("paco")) {
 
     document.write("Tu nombre no es Paco")
+
 
 let Paco
 Paco=prompt("Escribe tu nombre");
@@ -64,6 +66,7 @@ if(Santiago==("")){
 
 
 
+
 let pablo
 pablo=prompt("Escribe tu nombre");
 if(pablo===("")) {
@@ -80,5 +83,15 @@ if(Paco===("")){
     document.write("Tu nombre es el correcto")
 }else{
     document.write("Tu nombre no es Paco")
+};
+
+
+let Mayo
+Mayo=prompt("Escribe tu nombre");
+if(Mayo==("")){
+    document.write("Tu nombre es el correcto")
+
+}else {
+    document.write("Tu nombre no es Mayo")
 };
 
